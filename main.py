@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+#HOG
 hog=cv.HOGDescriptor()
 hog.setSVMDetector(cv.HOGDescriptor_getDefaultPeopleDetector())
 cv.startWindowThread()
